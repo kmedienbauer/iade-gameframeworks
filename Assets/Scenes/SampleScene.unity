@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 136435348}
   - component: {fileID: 136435352}
   m_Layer: 0
-  m_Name: Dynamic Sprite
-  m_TagString: Untagged
+  m_Name: DynamicSprite
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,6 +243,7 @@ GameObject:
   - component: {fileID: 222259795}
   - component: {fileID: 222259794}
   - component: {fileID: 222259793}
+  - component: {fileID: 222259796}
   m_Layer: 0
   m_Name: Dynamic Sprite 2
   m_TagString: Untagged
@@ -328,6 +329,18 @@ Transform:
   - {fileID: 640531308}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &222259796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222259792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5c8cbf7c9a3814493c37bded843de5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,7 +445,7 @@ GameObject:
   - component: {fileID: 538871794}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
